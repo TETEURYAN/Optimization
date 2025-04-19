@@ -2,6 +2,10 @@
 
 ILOSTLBEGIN
 
+// Problema dos Transportes:
+// Determina o plano de distribuição de mercadorias de vários fornecedores para vários destinos,
+// minimizando o custo total de transporte, respeitando a oferta e a demanda.
+
 int main(){
     IloEnv env;
 

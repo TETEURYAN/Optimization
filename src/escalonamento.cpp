@@ -3,6 +3,11 @@
 
 ILOSTLBEGIN
 
+// Problema de Escalonamento:
+// Consiste em alocar tarefas a recursos (como máquinas ou tempo) de forma eficiente, respeitando restrições como ordem de execução, tempo e disponibilidade.
+// Um exemplo clássico é escalonar enfermeiras em dias possíveis, tal como o problema desse código.
+// O objetivo pode ser minimizar o tempo total (makespan), atrasos, ou conflitos, e o problema pode variar muito dependendo das restrições.
+
 int main(){
     IloEnv env;
 

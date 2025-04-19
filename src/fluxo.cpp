@@ -3,6 +3,13 @@
 
 ILOSTLBEGIN
 
+// Problema do Fluxo Máximo:
+// Dado um grafo direcionado com capacidades nas arestas, e dois vértices (fonte e sumidouro),
+// o objetivo é determinar a maior quantidade de "fluxo" que pode ser enviada da fonte ao sumidouro sem exceder as capacidades.
+// Aparece em redes de transporte, logística, e até na detecção de cortes mínimos em grafos.
+// O algoritmo clássico para resolver isso é o de Ford-Fulkerson (ou sua versão eficiente: Edmonds-Karp).
+
+
 int main(){
     IloEnv env;
 

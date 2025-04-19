@@ -2,6 +2,10 @@
 
 ILOSTLBEGIN
 
+// Problema das Rações:
+// Define uma dieta com o menor custo possível que atenda às necessidades nutricionais mínimas,
+// escolhendo entre diferentes alimentos com custos e valores nutricionais conhecidos.
+
 int main(){
     IloEnv env;
     try {

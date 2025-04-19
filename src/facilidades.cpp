@@ -4,6 +4,10 @@ using namespace std;
 
 ILOSTLBEGIN
 
+// Problema das Facilidades:
+// Decide onde instalar centros de distribuição ou serviços, de forma a minimizar custos de operação
+// e/ou distâncias até os clientes, respeitando restrições de capacidade e demanda.
+
 int main() {
     IloEnv env;
     IloModel model(env);

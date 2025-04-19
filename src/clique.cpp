@@ -4,6 +4,11 @@ using namespace std;
 
 ILOSTLBEGIN
 
+// Problema da Clique:
+// Dado um grafo, o objetivo é encontrar o maior subconjunto de vértices onde todos estão conectados entre si — ou seja, formam uma clique.
+// Esse problema aparece em contextos como análise de redes sociais (grupos de pessoas que se conhecem mutuamente) ou bioinformática.
+// A identificação de cliques máximas é computacionalmente difícil (NP-difícil), e com frequência usamos algoritmos aproximados.
+
 int main() {
     IloEnv env;
     IloModel model(env);
